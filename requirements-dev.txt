@@ -1,0 +1,43 @@
+# Stevens Math Garden - Development Dependencies
+# Additional tools for development and testing
+
+# Include all base requirements
+-r requirements.txt
+
+# Advanced testing
+pytest-xdist>=3.3.0
+pytest-timeout>=2.1.0
+hypothesis>=6.82.0
+
+# Code formatting and linting
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+pylint>=2.17.0
+mypy>=1.4.0
+
+# Pre-commit hooks
+pre-commit>=3.3.0
+
+# Documentation building
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
+sphinx-autodoc-typehints>=1.23.0
+myst-parser>=2.0.0
+
+# Notebook testing
+nbval>=0.10.0
+nbconvert>=7.6.0
+
+# Performance profiling
+memory-profiler>=0.61.0
+line-profiler>=4.0.0
+
+# Type checking
+types-requests
+types-PyYAML
+
+# Build tools
+build>=0.10.0
+twine>=4.0.0
+wheel>=0.40.0
